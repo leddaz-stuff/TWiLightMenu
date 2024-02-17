@@ -1,6 +1,7 @@
 name: Build TWiLight Menu++ Release
 
 on:
+  workflow_dispatch:
   release:
     types: [created]
 
